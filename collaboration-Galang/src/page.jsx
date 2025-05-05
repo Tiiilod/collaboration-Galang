@@ -1,4 +1,5 @@
 import fototurky from"./assets/foto.jpg"
+import fotogalang from"./assets/galang.jpg"
 
 export default function App() {
     return (
@@ -9,7 +10,20 @@ export default function App() {
           alt="Foto Besar"
           className="w-full max-w-4xl rounded-2xl shadow-lg"
         />
+
+<h1 className="text-4xl font-bold text-gray-800 ">Ini Project react-</h1>
+        <img
+          src={fotogalang}
+          alt="Foto Besar"
+          className="w-full max-w-4xl rounded-2xl shadow-lg"
+        />
+
+
+
       </div>
+
     );
   }
+
+
    
