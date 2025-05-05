@@ -1,4 +1,4 @@
-import fototurky from"./assets/foto.jpg"
+import fototurky  from"./assets/foto.jpg"
 import fotogalang from"./assets/galang.jpg"
 
 export default function App() {
@@ -11,7 +11,7 @@ export default function App() {
           className="w-full max-w-4xl rounded-2xl shadow-lg"
         />
 
-<h1 className="text-4xl font-bold text-gray-800 ">Ini Project react-</h1>
+<h1 className="text-4xl font-bold text-gray-800 ">Ini Project react-galang</h1>
         <img
           src={fotogalang}
           alt="Foto Besar"
